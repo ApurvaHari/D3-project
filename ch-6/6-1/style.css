@@ -1,0 +1,33 @@
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+line {
+  stroke: red;
+}
+
+path{
+  stroke : green;
+  stroke-width :3;
+}
+
+g.group0 path,
+g.group0 circle
+    {
+      stroke: red;
+      fill: none;
+    }
+g.tick line {
+  stroke: blue;
+}
+g.tick text{
+  font-size: 10px;
+  fill: purple;
+}
+
+g.hidden line,
+g.hidden path
+{
+  display: none;
+}
